@@ -1,6 +1,6 @@
 /* Print all possible subsets of the given array whose sum equal to given N.
 example: Input: {1, 2, 3, 4, 5} N=6 Output: {1, 2, 3}, {1, 5}, {2, 4}*/
-package ZohoPdfTest;
+
 import java.util.*;
 public class SumOfSubsets {
     public static void backTrack(int n,int[]a,int index,int sum,int target,List<Integer>current) {
