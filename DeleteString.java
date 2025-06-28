@@ -10,9 +10,8 @@
         Output: aBuzC9012
         (Replace the second ‘Z’ with ‘C’ as ‘a’ and ‘B’ are already there in the String. Replace with capital C as the letter to be replaced is capital Z. The second 9 turns out to be zero and the zero turns out to ‘1’ and the second zero turns out to ‘2’)
 */
-package ZohoPdfTest;
 import java.util.*;
-public class A6DeleteString {
+public class DeleteString {
     public static char change(char a) {
         if (a == '9')
             a= '0';
